@@ -2,7 +2,6 @@ steps:
   - name: 'gcr.io/cloud-builders/npm'
     args: ['install'] 
 
-  - name: 'ubuntu'
-    args: ['bash', 'pm2 restart 0']
+  - name: 'pm2 restart 0'
   # - name 'gcr.io/cloud-builders/pm2'
   #   args: ['restart', '0']
