@@ -1,5 +1,5 @@
 steps:
-  - name 'ubuntu'
-    args: ['bash', 'git pull origin master'] 
+  - name 'gcr.io/cloud-builders/git'
+    args: ['pull', 'origin', 'master'] 
   # - name 'gcr.io/cloud-builders/pm2'
   #   args: ['restart', '0']
